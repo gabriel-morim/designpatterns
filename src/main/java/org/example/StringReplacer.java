@@ -1,2 +1,5 @@
-package org.example;public class StringReplacer {
+package org.example;
+
+public class StringReplacer {
+
 }

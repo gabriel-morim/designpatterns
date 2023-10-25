@@ -1,2 +1,22 @@
-package PACKAGE_NAME;public class StringDrink {
+package org.example;
+
+import static java.awt.SystemColor.text;
+
+
+public class StringDrink {
+
+    private String text;
+
+    public StringDrink(String text){
+        this.text = text;
+    }
+
+    public String getText(){
+        return this.text;
+    }
+
+    public void setText(String text){
+        this.text = text;
+
+    }
 }
