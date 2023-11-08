@@ -13,11 +13,10 @@ public class StringCaseChanger implements StringTransformer{
             else stb.append(Character.toLowerCase(c));
         }
         drink.setText(stb.toString());
+    }
 
-
-
-
-
-
+    @Override
+    public void undo(StringDrink drink) {
+        execute(drink);
     }
 }

@@ -11,4 +11,9 @@ public class StringInverter implements StringTransformer {
 
     }
 
+    @Override
+    public void undo(StringDrink drink){
+        execute(drink);
+    }
+
 }
